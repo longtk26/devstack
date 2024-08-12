@@ -1,9 +1,13 @@
-import React from 'react'
+import { UserButton } from "@clerk/nextjs";
+import React from "react";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <UserButton />
+      <h1 className="h1-bold">Home</h1>
+    </>
+  );
+};
 
-export default Home
+export default Home;
